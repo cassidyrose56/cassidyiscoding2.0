@@ -9,6 +9,7 @@
       if (darkMode) {
         b1 = {
           background: `
+            radial-gradient(at 20% 30%, rgba(117, 13, 55, 0.9), rgba(255, 153, 102, 0.7) 50%, rgba(117, 13, 55, 0.5) 70.71%),
             linear-gradient(217deg, rgba(117, 13, 55, 0.8), rgba(255, 153, 102, 0.6) 30%, rgba(117, 13, 55, 0.4) 70.71%),
             linear-gradient(127deg, rgba(255, 153, 102, 0.7), rgba(117, 13, 55, 0.5) 40%, rgba(255, 153, 102, 0.3) 70.71%),
             linear-gradient(336deg, rgba(117, 13, 55, 0.6), rgba(255, 153, 102, 0.4) 20%, rgba(117, 13, 55, 0.2) 70.71%),
@@ -18,6 +19,7 @@
   
         b2 = {
           background: `
+            radial-gradient(at 80% 70%, rgba(117, 13, 55, 0.9), rgba(255, 153, 102, 0.7) 40%, rgba(117, 13, 55, 0.5) 70.71%),
             linear-gradient(17deg, rgba(255, 153, 102, 0.8), rgba(117, 13, 55, 0.6) 20%, rgba(255, 153, 102, 0.4) 70.71%),
             linear-gradient(200deg, rgba(117, 13, 55, 0.7), rgba(255, 153, 102, 0.5) 50%, rgba(117, 13, 55, 0.3) 70.71%),
             linear-gradient(336deg, rgba(255, 153, 102, 0.6), rgba(117, 13, 55, 0.4) 30%, rgba(255, 153, 102, 0.2) 70.71%),
@@ -27,6 +29,7 @@
       } else {
         b1 = {
           background: `
+            radial-gradient(at 20% 30%, rgba(234, 124, 191, 0.9), rgba(255, 153, 102, 0.7) 50%, rgba(234, 124, 191, 0.5) 70.71%),
             linear-gradient(217deg, rgba(234, 124, 191, 0.8), rgba(255, 153, 102, 0.6) 30%, rgba(234, 124, 191, 0.4) 70.71%),
             linear-gradient(127deg, rgba(255, 153, 102, 0.7), rgba(234, 124, 191, 0.5) 40%, rgba(255, 153, 102, 0.3) 70.71%),
             linear-gradient(336deg, rgba(234, 124, 191, 0.6), rgba(255, 153, 102, 0.4) 20%, rgba(234, 124, 191, 0.2) 70.71%),
@@ -36,6 +39,7 @@
   
         b2 = {
           background: `
+            radial-gradient(at 80% 70%, rgba(234, 124, 191, 0.9), rgba(255, 153, 102, 0.7) 40%, rgba(234, 124, 191, 0.5) 70.71%),
             linear-gradient(17deg, rgba(255, 153, 102, 0.8), rgba(234, 124, 191, 0.6) 20%, rgba(255, 153, 102, 0.4) 70.71%),
             linear-gradient(200deg, rgba(234, 124, 191, 0.7), rgba(255, 153, 102, 0.5) 50%, rgba(234, 124, 191, 0.3) 70.71%),
             linear-gradient(336deg, rgba(255, 153, 102, 0.6), rgba(234, 124, 191, 0.4) 30%, rgba(255, 153, 102, 0.2) 70.71%),
@@ -43,7 +47,7 @@
           `
         };
       }
-      gsap.fromTo("#a", b1, { ...b2, duration: 6, ease: "none", repeat: -1, yoyo: true });
+      gsap.fromTo("#sm-tile", b1, { ...b2, duration: 6, ease: "none", repeat: -1, yoyo: true });
     }
   
     let b1 = {};
@@ -66,7 +70,7 @@
     });
   </script>
   
-  <div id="a" class="flex gap-2 justify-around items-center lg:col-span-2 md:col-span-3 h-fit w-fit min-w-[155px] md:w-auto lg:col-start-11 md:col-start-10 md:row-span-1 md:shadow-md rounded-lg md:p-4 absolute right-[32px] md:static">
+  <div id="sm-tile" class="flex gap-2 justify-around items-center lg:col-span-2 md:col-span-3 h-fit w-fit md:w-auto lg:col-start-11 md:col-start-10 md:row-span-1 md:shadow-md rounded-lg md:p-4 absolute right-[32px] md:static">
     <a href="https://github.com/cassidyrose56" target="_blank">
       <Icon icon="bxl:github" class="md:text-myWhite text-4xl" />
     </a>

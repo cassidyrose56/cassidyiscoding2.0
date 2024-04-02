@@ -4,4 +4,10 @@
 
 body {
   @apply bg-myWhite dark:bg-myBlack text-myBlack dark:text-myWhite;
+  overflow-x: hidden;
+}
+
+html {
+  scrollbar-color: #ffcfb8 #e0e0e0;
+  scrollbar-width: thin;
 }

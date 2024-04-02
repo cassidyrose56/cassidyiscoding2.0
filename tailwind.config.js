@@ -47,8 +47,9 @@ export default {
           700: '#005A61',
           500: '#00C3D1',
           300: '#4CF3FF',
+          100: '#8CF7FF',
           DEFAULT: '#EB130F',
-          light: '#4CF3FF',
+          light: '#8CF7FF',
           contrast: '#210124'
         },
         quaternary: {
