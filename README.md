@@ -1,4 +1,4 @@
-# CassidyIsCoding2.0
+# CassidyIsCoding
 
 > [!IMPORTANT]
 > Currently a Work In Progress
