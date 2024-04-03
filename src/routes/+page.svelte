@@ -31,7 +31,7 @@
 </script>
 <div class="md:px-[12vw] pb-12">
     <Header />
-    <div id="pageContent" class="invisible min-h-screen grid md:grid-cols-12 grid-cols-1 md:grid-rows-[10] gap-8 p-8 justify-between">
+    <div id="pageContent" class="invisible min-h-screen grid md:grid-cols-12 grid-cols-3 md:grid-rows-[10] gap-8 p-8 justify-between">
         <DescTile />
         <GithubTile />
         <LinkedInTile />

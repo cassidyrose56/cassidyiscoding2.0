@@ -91,7 +91,7 @@
     });
     </script>
 
-<div id="skillz-tile" class="md:col-span-4 md:row-span-6 md:row-start-5 md:col-start-1 relative group">
+<div id="skillz-tile" class="md:col-span-4 md:row-span-6 md:row-start-5 col-span-3 md:col-start-1 relative group">
   <div class="absolute inset-0 bg-tertiary-100 dark:bg-quaternary-700 rounded-lg blur-sm opacity-75 group-hover:bg-opacity-100 group-hover:blur-md group-hover:duration-200 transition duration-1000"></div>
   <div class="relative flex flex-col h-full gap-3 pt-10 bg-tertiary-100 dark:bg-quaternary-700 min-h-fit shadow-md rounded-lg p-6">
     <h2 class="font-June text-4xl">Skills</h2>

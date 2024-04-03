@@ -2,7 +2,7 @@
     import WorkSection from "$lib/components/WorkSection.svelte";
 </script>
 
-<div id="work-tile" class="md:col-span-8 col-span-1 md:col-start-5 md:row-span-6 relative group h-full">
+<div id="work-tile" class="md:col-span-8 md:col-start-5 col-span-3 md:row-span-6 relative group h-full">
     <div class="absolute inset-0 bg-primary-300 dark:bg-secondary-700 rounded-lg blur-sm opacity-75 group-hover:bg-opacity-100 group-hover:blur-md group-hover:duration-200 transition duration-1000"></div>
     <div  class="relative h-full flex flex-col md:gap-6 gap-4 md:p-12 p-6 bg-primary-300 dark:bg-secondary-700 shadow-md rounded-lg">
         <h2 class="font-June md:text-6xl text-4xl">Work</h2>

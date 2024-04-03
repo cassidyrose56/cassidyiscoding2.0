@@ -1,11 +1,11 @@
 # CassidyIsCoding
 
 > [!IMPORTANT]
-> Currently a Work In Progress
+> First iteration - more good stuff coming!
 
 **Personal Website built with Svelte, TypeScript, and Tailwind.css, with animations made with Adobe Illustrator and GSAP.**
 
-When my new portfolio is published and ready to go, you can visit it [here!](https://www.cassidyiscoding.com/) If you'd like, you can visit my old portfolio now via that link - you'll get to see a snapshot of where I was in my coding journey about a year ago and when my new one is published, you can check out how much I've grown in the past year!
+You can visit my new portfolio [here!](https://www.cassidyiscoding.com/) 
 
 ## Installation
 
