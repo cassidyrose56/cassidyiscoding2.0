@@ -2,16 +2,16 @@
 <script lang="ts">
     export let link: string
     export let svg: string
+    export let altText: string
     export let title: string
     export let date: string
     export let description: string
 </script>
 
 <div class="flex gap-6">
-    <a href={link} target="_blank">
+    <a href={link} target="_blank" tabindex="-1">
          <div class="h-16 w-16 bg-primary-700 dark:bg-secondary-500 flex items-center justify-center rounded-md shadow-light-icon shadow-primary-500 dark:shadow-secondary-700">
-             <!-- svelte-ignore a11y-missing-attribute -->
-             <img src={svg} aria-hidden class="h-8 w-auto" />
+             <img src={svg} alt={altText} class="h-8 w-auto" />
          </div>
      </a> 
      <div class="flex flex-col gap-2">

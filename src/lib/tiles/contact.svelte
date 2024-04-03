@@ -1,19 +1,6 @@
 <script lang="ts">
     import { gsap } from 'gsap';
     import { onMount } from 'svelte';
-    // import SplitText from 'gsap-trial';
-
-    // gsap.registerPlugin(SplitText) 
-
-    // onM
-    // var split = new SplitText("#contact-title", {type: "chars"});
-    // //now animate each character into place from 100px above, fading in:
-    // gsap.from(split.chars, {
-    //   duration: 1, 
-    //   y: 100, 
-    //   autoAlpha: 0, 
-    //   stagger: 0.05
-    // });
   
     let darkMode = false;
   
@@ -82,11 +69,12 @@
         observer.disconnect();
       };
     });
-
-
 </script>
 
-<div class="md:col-span-12 h-fit p-6 md:row-span-4 bg-tertiary-300 dark:bg-primary-900 rounded-lg shadow-md">
-    <h2 id="contact-title" class="font-June md:text-5xl text-4xl text-center">Hey there!</h2>
-    <p class="font-Hatch font-light text-2xl md:w-7/12 md:leading-loose leading-relaxed text-center md:text-start">I would love to connect! Feel free to <a class="underline text-tertiary-700 dark:text-tertiary-300 font-medium hover:font-semibold" href="mailto:cassidyrose56@gmail.com">send me a message</a> at cassidyrose56@gmail.com, or shoot me a message on social media. </p>
+<div id="contact-tile" class="md:col-span-12 md:row-span-4 relative group rounded-lg">
+  <div class="absolute inset-0 bg-secondary-300 dark:bg-primary-900 rounded-lg blur-sm opacity-75 group-hover:bg-opacity-100 group-hover:blur-md group-hover:duration-200 transition duration-1000"></div>
+  <div class="relative h-fit p-6 bg-secondary-300 dark:bg-primary-900 rounded-lg shadow-md flex flex-col gap-2">
+      <h2 id="contact-title" class="font-June md:text-5xl text-4xl text-center">Hey there!</h2>
+      <p class="font-Hatch font-light text-xl text-center">I would love to connect! Feel free to <a class="underline font-medium hover:font-semibold" href="mailto:cassidyrose56@gmail.com">send me a message</a> at cassidyrose56@gmail.com, or shoot me a message on social media. </p>
+  </div>
 </div>

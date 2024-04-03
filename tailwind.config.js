@@ -4,12 +4,6 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
-      backgroundImage: {
-        'light-pink': "url('/svg/lightPink.svg')",
-        'dark-pink': "url('/svg/darkPink.svg')",
-        'dark-multi': "url('/svg/darkMulti.svg')",
-        'light-multi': "url('/svg/lightMulti.svg')"
-      },
       gridTemplateRows: {
         14: 'repeat(14, minmax(0, 1fr))'
       },
@@ -25,11 +19,11 @@ export default {
           '-3px 6.6px 7.8px -2.8px hsl(20deg 45% 51%) / 0.37);'
         ]
       },
-      
+
       colors: {
         transparent: 'transparent',
         primary: {
-          900: '#C74200',
+          900: '#B33C00',
           700: '#F55200',
           500: '#FF9966',
           300: '#FFCFB8',
@@ -55,9 +49,10 @@ export default {
           contrast: '#210124'
         },
         quaternary: {
-          500: '#750D37',
-          300: '#BE155A',
-          100: '#ED6199',
+          700: '#750D37',
+          500: '#BE155A',
+          300: '#ED6199',
+          100: '#F391B8',
           DEFAULT: '#750D37',
           light: '#ED6199'
         },

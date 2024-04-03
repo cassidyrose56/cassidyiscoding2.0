@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-myWhite dark:bg-myBlack text-myBlack dark:text-myWhite;
+  @apply bg-myWhite dark:bg-myBlack text-myBlack dark:text-myWhite transition duration-500;
   overflow-x: hidden;
 }
 
