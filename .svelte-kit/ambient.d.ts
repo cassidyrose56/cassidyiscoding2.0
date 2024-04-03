@@ -54,8 +54,8 @@ declare module '$env/static/private' {
 	export const NVM_DIR: string;
 	export const USER: string;
 	export const npm_package_scripts_check_watch: string;
+	export const npm_package_dependencies__sveltejs_adapter_auto: string;
 	export const COMMAND_MODE: string;
-	export const npm_package_devDependencies__sveltejs_adapter_static: string;
 	export const PNPM_SCRIPT_SRC_DIR: string;
 	export const SSH_AUTH_SOCK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
@@ -92,7 +92,6 @@ declare module '$env/static/private' {
 	export const npm_config_node_gyp: string;
 	export const XPC_SERVICE_NAME: string;
 	export const npm_package_version: string;
-	export const npm_package_devDependencies__sveltejs_adapter_auto: string;
 	export const VSCODE_INJECTION: string;
 	export const npm_package_devDependencies_autoprefixer: string;
 	export const npm_package_devDependencies_svelte_check: string;
@@ -181,8 +180,8 @@ declare module '$env/dynamic/private' {
 		NVM_DIR: string;
 		USER: string;
 		npm_package_scripts_check_watch: string;
+		npm_package_dependencies__sveltejs_adapter_auto: string;
 		COMMAND_MODE: string;
-		npm_package_devDependencies__sveltejs_adapter_static: string;
 		PNPM_SCRIPT_SRC_DIR: string;
 		SSH_AUTH_SOCK: string;
 		__CF_USER_TEXT_ENCODING: string;
@@ -219,7 +218,6 @@ declare module '$env/dynamic/private' {
 		npm_config_node_gyp: string;
 		XPC_SERVICE_NAME: string;
 		npm_package_version: string;
-		npm_package_devDependencies__sveltejs_adapter_auto: string;
 		VSCODE_INJECTION: string;
 		npm_package_devDependencies_autoprefixer: string;
 		npm_package_devDependencies_svelte_check: string;

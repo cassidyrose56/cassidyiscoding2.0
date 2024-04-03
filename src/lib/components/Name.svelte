@@ -1,25 +1,22 @@
 <script lang="ts">
     import { onMount } from 'svelte';
     import { gsap } from 'gsap';
+    import TextPlugin from 'gsap/dist/TextPlugin'
 
-    import DarkName from '$lib/svgs/DarkName.svelte';
-    import LightName from '$lib/svgs/LightName.svelte';
+    gsap.registerPlugin(TextPlugin)
+
+    onMount(() => {
+      gsap.to("#name", {
+        duration: 2,
+        text: "CassidyIsCoding",
+        ease: "none",
+      })
+    })
+
   
-    
-  const sourcePaths = '#sourcePath1, #sourcePath2, ...';
-  const destinationPaths = '#destinationPath1, #destinationPath2, ...';
-
-  // gsap.to(sourcePaths, {
-  //   duration: 1,
-  //   morphSVG: destinationPaths,
-  //   onComplete: function() {
-  //     document.getElementById('lightName').style.display = 'none';
-  //     document.getElementById('darkName').style.display = 'block';
-  //   }
-  // });
   </script>
 
 
-<h1 class="font-June text-7xl">CassidyIsCoding</h1>
+<h1 id="name" class="font-June text-7xl">Hello there!</h1>
 <!-- <DarkName />
 <LightName /> -->

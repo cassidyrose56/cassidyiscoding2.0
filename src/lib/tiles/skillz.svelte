@@ -91,7 +91,7 @@
     });
     </script>
 
-<div id="skillz-tile" class="flex flex-col gap-3 justify-center bg-tertiary-300 dark:bg-tertiary-700 md:col-span-3 md:row-span-7 md:row-start-6 min-h-fit shadow-md rounded-lg p-6">
+<div class="flex flex-col gap-3 justify-center bg-quaternary-100 dark:bg-quaternary-500 md:col-span-3 md:row-span-7 md:row-start-5 min-h-fit shadow-md rounded-lg p-6">
     <h2 class="font-June text-4xl">Skills</h2>
     <ul class="font-Hatch font-light text-xl flex flex-col gap-5">
         <li>

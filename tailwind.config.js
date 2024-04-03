@@ -25,9 +25,11 @@ export default {
           '-3px 6.6px 7.8px -2.8px hsl(20deg 45% 51%) / 0.37);'
         ]
       },
+      
       colors: {
         transparent: 'transparent',
         primary: {
+          900: '#C74200',
           700: '#F55200',
           500: '#FF9966',
           300: '#FFCFB8',

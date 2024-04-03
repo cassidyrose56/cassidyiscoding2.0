@@ -86,7 +86,7 @@
 
 </script>
 
-<div id="contact-tile" class="md:col-span-12 h-fit p-6 md:row-span-4 bg-light-pink dark:bg-dark-pink bg-cover bg-no-repeat rounded-lg shadow-md">
+<div class="md:col-span-12 h-fit p-6 md:row-span-4 bg-tertiary-300 dark:bg-primary-900 rounded-lg shadow-md">
     <h2 id="contact-title" class="font-June md:text-5xl text-4xl text-center">Hey there!</h2>
-    <p class="font-Hatch font-light text-2xl md:w-7/12 md:leading-loose leading-relaxed text-center md:text-start">I would love to connect! Feel free to <a class="underline text-tertiary-700 dark:text-tertiary-300 font-medium hover:font-semibold" href="mailto:cassidyrose56@gmail.com">send a me a message</a> at cassidyrose56@gmail.com, or shoot me a message on social media. </p>
+    <p class="font-Hatch font-light text-2xl md:w-7/12 md:leading-loose leading-relaxed text-center md:text-start">I would love to connect! Feel free to <a class="underline text-tertiary-700 dark:text-tertiary-300 font-medium hover:font-semibold" href="mailto:cassidyrose56@gmail.com">send me a message</a> at cassidyrose56@gmail.com, or shoot me a message on social media. </p>
 </div>
