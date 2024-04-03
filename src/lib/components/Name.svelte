@@ -1,9 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte';
     import { gsap } from 'gsap';
-    import pkg from 'gsap-trial/dist/MorphSVGPlugin';
-    const { MorphSVGPlugin } = pkg;
-    gsap.registerPlugin(MorphSVGPlugin) 
 
     import DarkName from '$lib/svgs/DarkName.svelte';
     import LightName from '$lib/svgs/LightName.svelte';
