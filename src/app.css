@@ -21,3 +21,9 @@ h6,
 p {
   cursor: default;
 }
+
+.name-font {
+  @apply font-June;
+  fill: none;
+  font-size: 104.25px;
+}
