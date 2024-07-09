@@ -75,6 +75,6 @@
   <div class="absolute inset-0 bg-secondary-300 dark:bg-primary-900 rounded-lg blur-sm opacity-75 group-hover:bg-opacity-100 group-hover:blur-md group-hover:duration-200 transition duration-1000"></div>
   <div class="relative h-fit p-6 bg-secondary-300 dark:bg-primary-900 rounded-lg shadow-md flex flex-col gap-2">
       <h2 id="contact-title" class="font-June md:text-5xl text-4xl text-center">Hey there!</h2>
-      <p class="font-Hatch font-light text-xl text-center">I would love to connect! Feel free to <a class="duration-150	underline font-medium hover:font-semibold" href="mailto:cassidyrose56@gmail.com">send me a message</a> at cassidyrose56@gmail.com, or shoot me a message on social media. </p>
+      <p class="font-Hatch font-light text-xl text-center">I would love to connect! Feel free to <a class="duration-150	underline font-medium hover:font-semibold" href="mailto:cassidyrose56@gmail.com">send me an email</a> at cassidyrose56@gmail.com, or shoot me a message on social media. </p>
   </div>
 </div>
