@@ -13,7 +13,7 @@
         </div>
         <div class="flex flex-col md:gap-6 gap-3">
             <h3 class="font-Hatch md:text-3xl text-2xl font-bold">Volunteering</h3>        
-            <WorkSection link="https://www.lightql.com/" svg="/svg/FoundcomLogo.svg" altText="FoundCom Logo" title="Foundation Communities" date="August 2023 - Present" description="A public-facing app to help nonprofit with their Home for the Holidays project, connecting families in need with sponsors in the community for holiday gifts." />
+            <WorkSection link="https://foundcom.org/home-for-the-holidays/" svg="/svg/FoundcomLogo.svg" altText="FoundCom Logo" title="Foundation Communities" date="August 2023 - Present" description="A public-facing app to help nonprofit with their Home for the Holidays project, connecting families in need with sponsors in the community for holiday gifts." />
         </div>
         <div class="flex flex-col md:gap-6 gap-3">
             <h3 class="font-Hatch md:text-3xl text-2xl font-bold">Projects</h3>        
