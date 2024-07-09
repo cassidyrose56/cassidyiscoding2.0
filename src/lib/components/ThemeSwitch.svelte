@@ -28,7 +28,7 @@
 
   <style lang="postcss">
     #theme-toggle + label {
-        @apply inline-block cursor-pointer h-12 w-12 rounded-full duration-300 content-[''];
+        @apply inline-block cursor-pointer h-12 w-12 rounded-full duration-300 content-[''] focus-visible:border-2 focus-visible:border-primary focus-visible:border-solid;
     }
 
     #theme-toggle:not(:checked) + label {

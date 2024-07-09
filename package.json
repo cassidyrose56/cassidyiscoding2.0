@@ -1,6 +1,6 @@
 {
-  "name": "myapp",
-  "version": "0.0.1",
+  "name": "cassidyiscoding",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "vite dev",

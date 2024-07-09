@@ -70,7 +70,6 @@ declare module '$env/static/private' {
 	export const npm_config_frozen_lockfile: string;
 	export const npm_package_devDependencies__typescript_eslint_parser: string;
 	export const PATH: string;
-	export const LaunchInstanceID: string;
 	export const USER_ZDOTDIR: string;
 	export const __CFBundleIdentifier: string;
 	export const PWD: string;
@@ -116,7 +115,6 @@ declare module '$env/static/private' {
 	export const GIT_ASKPASS: string;
 	export const npm_package_dependencies_gsap_trial: string;
 	export const npm_package_devDependencies__types_eslint: string;
-	export const SECURITYSESSIONID: string;
 	export const npm_package_scripts_check: string;
 	export const COLORTERM: string;
 	export const npm_node_execpath: string;
@@ -196,7 +194,6 @@ declare module '$env/dynamic/private' {
 		npm_config_frozen_lockfile: string;
 		npm_package_devDependencies__typescript_eslint_parser: string;
 		PATH: string;
-		LaunchInstanceID: string;
 		USER_ZDOTDIR: string;
 		__CFBundleIdentifier: string;
 		PWD: string;
@@ -242,7 +239,6 @@ declare module '$env/dynamic/private' {
 		GIT_ASKPASS: string;
 		npm_package_dependencies_gsap_trial: string;
 		npm_package_devDependencies__types_eslint: string;
-		SECURITYSESSIONID: string;
 		npm_package_scripts_check: string;
 		COLORTERM: string;
 		npm_node_execpath: string;

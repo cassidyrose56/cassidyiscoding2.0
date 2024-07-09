@@ -12,6 +12,10 @@
             <WorkSection link="https://www.intern.house/" svg="/svg/InternHouseLogo.svg" altText="Intern.House Logo" title="Intern.House" date="April 2022 - March 2023" description="A startup specializing in helping tech interns find flexible, shared housing in Austin." />
         </div>
         <div class="flex flex-col md:gap-6 gap-3">
+            <h3 class="font-Hatch md:text-3xl text-2xl font-bold">Volunteering</h3>        
+            <WorkSection link="https://www.lightql.com/" svg="/svg/FoundcomLogo.svg" altText="FoundCom Logo" title="Foundation Communities" date="August 2023 - Present" description="A public-facing app to help nonprofit with their Home for the Holidays project, connecting families in need with sponsors in the community for holiday gifts." />
+        </div>
+        <div class="flex flex-col md:gap-6 gap-3">
             <h3 class="font-Hatch md:text-3xl text-2xl font-bold">Projects</h3>        
             <WorkSection link="https://www.lightql.com/" svg="/svg/LightQLLogo.svg" altText="LightQL Logo" title="LightQL" date="2022" description="An Open Source Project composed of a lightweight client-side caching library for GraphQL, similar to Apollo Client." />
         </div>
